@@ -10,10 +10,10 @@ large_header: true
 	<p>
 		In progress
 	</p>
+</div>
 
-
+	
 <!--
-
 ---
 title:
 call_to_action: Contact
@@ -41,6 +41,7 @@ _options:
 	<p>Justice Law is professional representation. Practicing for over 50 years, our team have the knowledge and skills to get you results.</p>
 </div>
 
+-->
 <div class="testimonials">
 	{% for testimonial in page.testimonials %}
 		<blockquote class="testimonial">
@@ -48,7 +49,6 @@ _options:
 			<p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}"> {{ testimonial.name }}</p>
 		</blockquote>
 	{% endfor %}
--->
 </div>
 
 

@@ -90,14 +90,10 @@ _select_data:
     - Map
 
   social_icons:
-    - Facebook
-    - Instagram
-    - LinkedIn
-    - Pinterest
-    - Tumblr
-    - Twitter
-    - YouTube
-    - RSS
+    - ORCID
+    - BlueSky
+    - Google Scholar
+
 
 _comments:
   large_header: Toggles the size of the top banner.

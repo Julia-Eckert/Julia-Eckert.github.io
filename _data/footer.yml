@@ -1,30 +1,14 @@
-- title: Pages
+- title: Links
   links:
-    - name: Home
-      link: /
-    - name: About
-      link: /about/
-    - name: Services
-      link: /services/
-    - name: Contact
-      link: /contact/
-    - name: Blog
-      link: /blog/
-- title: Social
-  links:
-    - name: Facebook
-      link: http://facebook.com/cloudcannon/
-      social_icon: Facebook
+    - name: ORCID
+      link: https://orcid.org/0000-0003-1353-3642
+      social_icon: ORCID
       new_window: true
-    - name: Twitter
-      link: http://twitter.com/cloudcannon
-      social_icon: Twitter
+    - name: Google Scholar
+      link: https://scholar.google.com/citations?user=me56iU0AAAAJ&hl=en
+      social_icon: Google Scholar
       new_window: true
-    - name: Instagram
-      link: http://instagram.com/
-      social_icon: Instagram
-      new_window: true
-    - name: LinkedIn
-      link: https://nz.linkedin.com/company/cloud-cannon/
-      social_icon: LinkedIn
+    - name: BlueSky
+      link: https://bsky.app/profile/juliaeckert.bsky.social
+      social_icon: BlueSky
       new_window: true

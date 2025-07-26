@@ -1,3 +1,4 @@
+<!--
 ---
 title: Business Mergers
 date: 2016-08-10 00:00:00
@@ -40,3 +41,4 @@ Professionals who value businesses generally do not use just one of these method
 As synergy plays a large role in the valuation of acquisitions, it is paramount to get the value of synergies right. Synergies are different from the "sales price" valuation of the firm, as they will accrue to the buyer. Hence, the analysis should be done from the acquiring firm's point of view. Synergy-creating investments are started by the choice of the acquirer, and therefore they are not obligatory, making them essentially real options. To include this real options aspect into analysis of acquisition targets is one interesting issue that has been studied lately.
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Mergers_and_acquisitions).
+-->

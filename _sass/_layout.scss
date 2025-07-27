@@ -86,7 +86,7 @@ section {
 	max-width: 100%;
 	max-height: 100%;
 	height: auto;
-	border-radius: 5px;
+	border-radius: 2px;
 }
 
 .main {
@@ -298,6 +298,7 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 -20px;
+	gap: 5px
 
 	.column {
 		flex: 1 1 250px;

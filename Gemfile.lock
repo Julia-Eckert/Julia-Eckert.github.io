@@ -78,7 +78,6 @@ DEPENDENCIES
   jekyll-seo-tag (~> 2.7.1)
   jekyll-sitemap (~> 1.4.0)
   webrick (~> 1.8)
-  jekyll-bluesky (~> 0.27.0)
 
 BUNDLED WITH
    2.1.4

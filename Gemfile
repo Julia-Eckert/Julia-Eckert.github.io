@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate', '~> 1.1.0'
   gem 'jekyll-seo-tag', '~> 2.7.1'
   gem 'jekyll-sitemap', '~> 1.4.0'
+  gem 'jekyll-bluesky', '~> 0.27.0'
 end
 
 gem "webrick", "~> 1.8"

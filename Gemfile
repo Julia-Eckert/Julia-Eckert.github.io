@@ -10,4 +10,6 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap', '~> 1.4.0'
 end
 
+gem 'jekyll-bluesky', '~> 0.27.0'
+
 gem "webrick", "~> 1.8"

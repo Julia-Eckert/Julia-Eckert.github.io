@@ -41,6 +41,18 @@
 			</div>
 		</header>
 
+		{% if page.call_to_action == 'Contact' %}
+			<section class="quote-section">
+				<p class="container editable">
+<!--
+					<a href="{{ site.baseurl }}/contact/">Contact us</a> today to find out how we can help you. Your first consultation is free.
+-->
+					News: (25/07/2027) Paper accepted! <br>
+					<a href="https://www.biorxiv.org/content/10.1101/2025.01.28.635015v1">Capturing Nematic Order on Tissue Surfaces of Arbitrary Geometry</a>
+				</p>
+			</section>
+		{% endif %}		
+		
 		<section class="main">
 			<div class="container">
 				{{ content }}
@@ -57,11 +69,6 @@
 <!--
 					<a href="{{ site.baseurl }}/contact/">Contact us</a> today to find out how we can help you. Your first consultation is free.
 -->
-					{% if page.call_to_action == 'News'%}
-						<div class="container">
-							{{ content }}
-						</div>
-					{% endif %}
 				</p>
 			</section>
 		{% else %}

@@ -52,9 +52,17 @@ h1 {
 	line-height: 80px;
 	margin: 0 -10px 0 0;
 
+	color: #1e89c7;
+	transition: color 0.2s ease;
+	text-decoration: none;
+
+	&:hover {
+		color: #46a8e0;
+	}
+	
 	@media (min-width: $mobile-break) {
 		line-height: 100px;
-		font-size: 8rem;
+		font-size: 8rem;	
 	}
 }
 

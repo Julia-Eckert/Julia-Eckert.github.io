@@ -63,9 +63,22 @@
 		{% elsif page.call_to_action == 'News' %}
 			<section class="quote-section">
 				<p class="container editable">
-					<body>
-					{% include news.html %}
-					</body>
+					
+					<html> 
+					  <head> 
+					    <script src="jquery.js"></script> 
+					    <script> 
+					    $(function(){
+					      $("#includedContent").load("html.html"); 
+					    });
+					    </script> 
+					  </head> 
+					
+					  <body> 
+					     <div id="includedContent"></div>
+					  </body> 
+					</html>
+					
 				</p>
 			</section>		
 		{% else %}

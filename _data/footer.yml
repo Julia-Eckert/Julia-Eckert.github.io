@@ -8,6 +8,10 @@
       link: https://scholar.google.com/citations?user=me56iU0AAAAJ&hl=en
       social_icon: Google Scholar
       new_window: true
+    - name: GitHub
+      link: https://github.com/Julia-Eckert
+      social_icon: GitHub
+      new_window: true
     - name: BlueSky
       link: https://bsky.app/profile/juliaeckert.bsky.social
       social_icon: BlueSky

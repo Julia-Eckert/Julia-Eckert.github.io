@@ -21,17 +21,17 @@ of the molecular marker of interest? And how do all these properties change over
 <p style="text-align: justify;"><img align="left" width="250" style="margin:0px 20px 0px 0px" src="https://raw.githubusercontent.com/Julia-Eckert/Julia-Eckert.github.io/refs/heads/main/uploads/NatCommsSpheroid.png" />
 These are challenging questions that are not easy to answer, as we typically capture two-dimensional 
 images of three-dimensional (3D) tissues. The main difficulty lies in accurately stitching together 
-individual images from a z-stack and reconstructing 3D information, independent of the shape and structure 
+individual images from a z-stack and reconstructing 3D information, regardless of the shape and structure 
 of the multicellular system. We took on this challenge and developed an image analysis pipeline that 
 fully captures tissue properties such as nematic order, topological defects, local curvature, 
 and fluorescence signals from molecular markers across the entire surface of 3D tissues.
 </p>	
 
 <p style="text-align: justify;"><img align="right" width="250" style="margin:10px 0px 0px 20px" src="https://raw.githubusercontent.com/Julia-Eckert/Julia-Eckert.github.io/refs/heads/main/uploads/NatCommsIntensity.png" />
-Capturing these 3D properties enables us, e.g., to verify theoretical predictions from simulations 
-by investigating the nematic orientation field of surface cells in multicellular aggregates, as well as
-to link biological mechanisms with physical descriptions in zebrafish heart systems. Our image analysis 
-tools now allow for quantitative analysis of tissue surfaces and help us address the questions outlined above.
+By capturing these 3D properties, we can, e.g., verify theoretical predictions from simulations 
+by investigating the nematic orientation field of surface cells in multicellular aggregates. Additionally, this method allows us
+to link biological mechanisms with physical descriptions in systems like the zebrafish heart. Our image analysis 
+tools now enable quantitative analysis of tissue surfaces and help us address the questions outlined above.
 </p>
 <p>	
 <span>&#10145;</span> <a href="https://www.nature.com/articles/s41467-025-62694-x">Eckert <i>et al.</i>, Nat. Commun., 2025</a><br> 
@@ -50,7 +50,7 @@ align collectively, forming so-called liquid crystal phases—specifically nemat
 by long-range orientational order without positional order.   
 </p>
 <p style="text-align: justify;">
-Nematic order, however, requires elongated cells. Are cells really elongated? Not always! In many tissues, 
+However, nematic order requires cells to be elongated. Are cells really elongated? Not always! In many tissues, 
 such as epithelia, cells are organized in honeycomb-like lattices, where most cells are hexagonal, 
 indicating hexatic order (symmetry under rotations by 60°). This raises an important question: 
 Are tissues better described as nematic or hexatic?
@@ -61,7 +61,7 @@ of epithelial tissues. Unexpectedly, we discovered that epithelial tissues suppo
 crystal orders that co-exist at different length scales: they are predominantly hexatic at small scales—e.g., 
 individual cells or with their neighbors—and predominantly nematic at large scales—e.g., from the perspective 
 of the entire tissue [1]. We also found that the hexanematic crossover—the length scale at which the switch occurs—is 
-not a fixed value. It depends significantly on monolayer density, cell-cell adhesion, and underlying substrate 
+not fixed. It depends significantly on monolayer density, cell-cell adhesion, and underlying substrate 
 stiffness [2]. We identified this crossover length scale as a robust indicator of changes in mechanics and biochemistry 
 that influence tissue integrity. Therefore, exploring the crossover length scale between hexatic and nematic symmetry 
 provides a deeper understanding of cellular organization during development, homeostasis, and disease.
@@ -76,7 +76,7 @@ provides a deeper understanding of cellular organization during development, hom
 <h3><b>From traction forces to detachment forces</b></h3> 
 
 <p style="text-align: justify;"><img align="right" width="250" style="margin:10px 0px 0px 20px" src="https://raw.githubusercontent.com/Julia-Eckert/Julia-Eckert.github.io/refs/heads/main/uploads/Force1.png" />
-One method to measure traction forces of cells is to use elastic micropillar arrays. These consist 
+One method to measure cellular traction forces is using elastic micropillar arrays. These consist 
 of µm-sized beams on which cells can adhere at their tips and exert pulling forces through 
 intracellular contraction. This leads to the deflection of the pillars, providing the necessary 
 information to calculate traction forces. The local force resolution of the resulting force field 
@@ -87,17 +87,18 @@ cells [1] and for investigating changes under external mechanical cues, such as 
 In a doublet configuration, micropillar arrays enable the measurement of forces acting at cell-cell 
 contacts, providing insight into how much of the total traction force is transmitted through these 
 contacts [3]. However, these measured intercellular forces are somewhat equilibrium-like and do not necessarily 
-reflect the maximum force that the contact can withstand. What is the maximum intercellular strength that 
+reflect the maximum force that the contact can withstand. This raises the question: what is the maximum intercellular strength that 
 can hold cells together before the contact raptures?
 </p>
 <p style="text-align: justify;"><img align="right" width="250" style="margin: 0px 0px 0px 20px" src="https://raw.githubusercontent.com/Julia-Eckert/Julia-Eckert.github.io/refs/heads/main/uploads/Force3.png" />
 Building on the elastic micropillar array assay, we designed the Cell-Cell Separation Device (CC-SD) 
 to measure detachment forces between spread cells [3]. The CC-SD consists of pillar arrays connected 
 to blocks to which cells can adhere and connect across the gap between the blocks. By applying a 
-controlled stretch to separate the blocks, the strain at the cell-cell contact increases, eventually 
-causing it to break. The pillars, whose distances remain largely unaffected by the substrate stretch, 
-are used to determine the intercellular adhesion force. Our design allows for a block separation of up 
-to 2.4-fold, which is sufficient to break cell-cell contacts, enabling to study forces resisting tissue rapture.
+controlled stretch to separate the blocks, the strain at the cell-cell contact increases until it eventually 
+breaks. Since the pillars' position remain largely unaffected by the substrate stretch, they are 
+used to determine the intercellular adhesion force. Our design allows for a block separation of up 
+to 2.4-fold, which is sufficient to break cell-cell contacts, thereby enabling the forces that resist tissue rupture 
+to be investigated.
 </p>
 <p>
 <span>&#10145;</span> <a href="https://www.mdpi.com/2673-8023/1/2/18">[1] Eckert <i>et al.</i>, Micro, 2021</a><br> 

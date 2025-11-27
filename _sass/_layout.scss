@@ -20,7 +20,7 @@ header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: calc(50% - 40px) 175px; // original: calc(50% - 40px) 175px
-	height: 10px;//420
+	height: 420px; 
 	box-sizing: border-box;
 
 	.container {
@@ -33,7 +33,7 @@ header {
 
 		&.main-hero {
 			height: 80vh;
-			background-position: calc(50% - 350px) calc(100% + 20px);
+			background-position: calc(50% - 10px) calc(100% + 20px); // calc(50% - 350px) calc(100% + 20px)
 		}
 
 		.container {

@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #fefefe; // color of main background, header and foot, original #fefefe
+//	background-color: #fefefe; // color of main background, header and foot, original #fefefe
 }
 
 .container {
@@ -22,6 +22,7 @@ header {
 	background-position: calc(50% - 40px) 175px; // original: calc(50% - 40px) 175px
 	height: 420px; 
 	box-sizing: border-box;
+	background-color: #000000;
 
 	.container {
 		text-align: center;
@@ -30,7 +31,6 @@ header {
 	@media (min-width: $mobile-break) {
 		background-size: contain;
 		background-position: calc(50% - 300px) calc(100% + 20px); //calc(50% - 300px) calc(100% + 20px);
-		background-color: #000000;
 
 		&.main-hero {
 			height: 80vh; 
